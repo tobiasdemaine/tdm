@@ -1,0 +1,66 @@
+effect(1 black)
+
+effect(2 sky1) 
+   mesh(3ds)
+   location(tdm2/banks/meshes/geosphere.3ds)
+   bindtexture(tdm2/banks/textures/sky/1.tga)
+   locktocamera()
+   blend()
+
+
+effect(3 society fast)
+ mesh(video)
+ attachavi(tdm2/lib/forest side.avi)
+ blend()
+
+effect(4 forest video)
+ mesh(video)
+ attachavi(tdm2/lib/forest side.avi)
+ blend()
+
+
+effect(4 classic tube) //  8
+  mesh(3ds) //new mesh 
+   location(tdm2/banks/meshes/3d_tunnels/tunnel2out.3DS)
+   bindtexture(tdm2/banks/textures/skins/tunnelskin2.tga)
+   position(304 0 0)
+   rotation(1 0 0 -1)
+   locktocamera()
+   attachlight()
+   
+   
+  mesh(3ds) //new mesh 
+    location(tdm2/banks/meshes/3d_tunnels/tunnel1in.3DS)
+    bindtexture(tdm2/banks/textures/skins/tunnelskin1.tga)
+    position(304 0 0)
+    rotation(9 0 0 1)
+    locktocamera()
+    blend()
+
+   mesh(3ds) //new mesh 
+   location(tdm2/banks/meshes/3d_tunnels/tunnel2in.3DS)
+   bindtexture(tdm2/banks/textures/skins/tunnelskin3.tga)
+   position(304 0 0)
+   rotation(1 0 0 -3)
+   blend()
+
+effect(5 black)
+effect(6 black)
+effect(7 black)
+effect(8 black)
+effect(9 black)
+effect(10 black)
+effect(11 black)
+effect(12 black)
+effect(13 black)
+effect(14 black)
+effect(15 black)
+effect(16 black)
+effect(17 black)
+effect(18 black)
+effect(19 black)
+effect(20 black)
+
+
+   
+
